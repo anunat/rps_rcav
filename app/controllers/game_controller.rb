@@ -10,7 +10,7 @@ class GameController < ApplicationController
     elsif @computer_move == "paper"
       @result = "You lost!"
     elsif @computer_move == "scissors"
-      @result = "You win!"
+      @result = "You won!"
     end
 
   end
@@ -23,7 +23,7 @@ class GameController < ApplicationController
     if user_move == @computer_move
       @result = "You tied!"
     elsif @computer_move == "rock"
-      @result = "You win!"
+      @result = "You won!"
     elsif  @computer_move == "scissors"
       @result = "You lost!"
     end
@@ -40,7 +40,7 @@ class GameController < ApplicationController
     elsif @computer_move == "rock"
       @result = "You lost!"
     elsif @computer_move == "paper"
-      @result = "You win!"
+      @result = "You won!"
     end
 
   end
